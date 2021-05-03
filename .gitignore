@@ -1,0 +1,6 @@
+.emacs.d/**/*
+!.emacs.d/init.el
+
+.vim/**/*
+!.vim/autoload/**/*
+!.vim/vimrc
