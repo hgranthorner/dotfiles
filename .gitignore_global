@@ -1,0 +1,7 @@
+*.swp
+**/bin/
+obj/
+.venv/
+*.sublime-workspace
+*.sublime-project
+*.pyc

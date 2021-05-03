@@ -1,0 +1,7 @@
+[user]
+	name = Grant Horner
+	email = h.grant.horner@gmail.com
+[credential]
+	helper = store
+[core]
+	excludesfile = ~/.gitignore_global
