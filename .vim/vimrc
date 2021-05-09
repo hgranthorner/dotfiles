@@ -43,9 +43,9 @@ set nohlsearch " highlight matches
 set splitbelow
 set splitright
 
-" Cursor line
-set cursorline
-hi CursorLine cterm=NONE ctermbg=darkgrey ctermfg=NONE
+" Set color scheme
+colorscheme gruvbox
+set bg=dark
 
 " File browsing
 let g:netrw_banner=0
@@ -70,7 +70,7 @@ nnoremap k gk
 set autoread
 
 " Move swp file location
-:set directory=$HOME/.vim/swapfiles//
+:set directory=$HOME/.vim/swapfiles/
 
 " NerdTree Config
 map <C-n> :NERDTreeToggle<CR>
@@ -90,9 +90,8 @@ call plug#begin('~/.vim/vimplugins')
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
-Plug 'rust-lang/rust.vim'
-Plug 'vim-syntastic/syntastic' 
-Plug 'OmniSharp/omnisharp-vim'
-Plug 'rust-lang/rust.vim'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
