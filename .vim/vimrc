@@ -6,6 +6,7 @@ set relativenumber
 set t_Co=256
 
 set nocompatible " turn off vi compatibility
+set backspace=indent,eol,start
 filetype off
 
 " Fix hanging O
