@@ -8,6 +8,7 @@ PATH="$PATH:/Users/grant/.ghcup/bin"
 PATH="$PATH:/Users/grant/go/bin"
 PATH="$PATH:/Users/grant/Applications/Sublime Text.app/Contents/SharedSupport/bin"
 PATH="$PATH:/Users/grant/.local/bin"
+PATH="$PATH:/usr/local/bin"
 
 export GO111MODULE=on
 export GOPATH="/Users/grant/Dev/go"
@@ -25,3 +26,4 @@ activate_venv() {
     fi
 }
 alias em="emacsclient -c"
+. "$HOME/.cargo/env"
