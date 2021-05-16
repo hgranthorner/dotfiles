@@ -5,3 +5,5 @@
 	helper = store
 [core]
 	excludesfile = ~/.gitignore_global
+[init]
+	defaultBranch = main
