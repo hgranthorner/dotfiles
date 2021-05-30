@@ -14,3 +14,15 @@ for f in $files ; do
         ln -nfs $file $link
     fi
 done
+
+# Set up vim
+
+## Install vim plug
+
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+## Make swap file folder
+
+mkdir ~/.vim/swapfiles
+
