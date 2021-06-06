@@ -7,7 +7,7 @@ files=$(ls -a)
 for f in $files ; do
     file="$dotfiles$f"
     link="$home$f"
-    if [[ $f != "extract.sh" && $f != ".git" && $f != ".ssh"  && $f != "." && $f != ".." && $f != ".gitignore" ]]
+    if [[ $f != "extract.sh" && $f != ".git" && $f != ".ssh"  && $f != "." && $f != ".." && $f != ".gitignore" && $f != "README.md" ]]
     then
         # echo $file
         # echo $link
